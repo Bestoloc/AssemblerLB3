@@ -92,7 +92,7 @@ MOV X, AL
     MOV AL, Y1
     CBW
     MOV Ch, Y2
-    ADD AX, CX
+    ADD Al, ch
     MOV Y, Ah 
    JMP SHORT @VIXOD 
     
